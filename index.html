@@ -1,12 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-</head>
-<body>
-    <h1> Hello There, My Fellow Mates</h1>
-</body>
-</html>
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    background: #0e0b16;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 2rem;
+    background: radial-gradient(circle, #ff0054, #45006c);
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #1b0032;
+    padding: 1rem;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ff0054;
+}
+
+/* Section */
+.section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.section:nth-child(even) {
+    background: linear-gradient(to bottom, #45006c, #1b0032);
+}
+
+/* Gallery */
+.gallery-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery-item {
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(circle, #ff009d, #1b0032);
+    border-radius: 50%;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #1b0032;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
